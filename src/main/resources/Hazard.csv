@@ -1,0 +1,43 @@
+ID,Summary,Content
+UAV-1420,Hazard Artifact,Hazard Artifact
+UAV-1406,The system fails to clearly notify the operator of critical decisions that they need to make and as a result the success of the mission is impeded. ,The system fails to clearly notify the operator of critical decisions that they need to make and as a result the success of the mission is impeded. 
+UAV-1367,Generate routes for UAVs within a predefined search area.,Prior to dispatching UAVs over a given se
+UAV-1366,The source of a video stream is not clearly depicted in the UI and the operator is confused about the source of the video and unable to make an informed rescue decision.,The source of a video stream is not clearly depicted in the UI and the operator is confused about the source of the video and unable to make an informed rescue decision.
+UAV-1365,The system fails to detect and raise warnings for mechnical or other technical faults on an active UAV,The system fails to detect and raise warnings for mechnical or other technical faults on an active UAV
+UAV-1364,Prohibited airspace is not clearly identified and drone accidentally flies into the airspace,Prohibited airspace is not clearly identified
+UAV-1195,The user interface fails to provide adequate situational awareness and the Drone Commander loses track of drones in the air,The drone commander loses track of drones in the air during an incident thereby failing to comply with FAA regulations and potentially causing an accident due to an unattended drone.
+UAV-1144,Abnormal drone behavior due to missing safety checks,Safety checks are disabled or ignored allowing the drone to takeoff and/or fly in unsafe state
+UAV-1143,UI fails to correctly convey full situational awareness during the mission,UI fails to provide situational awareness
+UAV-1142,Hardware Failure,DroneResponse app crashes due to hardware failure
+UAV-1101,UAV flies above the altitude permitted by FAA regulations.,UAV flies above the altitude permitted by FAA regulations.
+UAV-1031,"An untrusted UAV registers with Dronology, fails to comply with commands, and creates chaos in the airspace.","An untrusted UAV registers with Dronology, fails to comply with commands, and creates chaos in the airspace. <Probability>Probability of hazard occurring is negligible given current flying locations.</Probability>"
+UAV-1027,Unintended target waypoint is issued that would send the UAV to a prohibitive area.,The UAV is issued a waypoint that would send it into a prohibited area.<probability>Probability is high given that Dronology stores routes for diverse areas</probability>
+UAV-1022,GPS is less accurate than the currently assumed GPS accuracy.,GPS is less accurate than the currently assumed GPS accuracy.
+UAV-1021,UAV compass calibration error causes UAV to fly in incorrect direction,UAV compass is not adequately calibrated and UAV flies in incorrect direction.
+UAV-1018,Satellite signals are lost causing the UAV to lose accurate localization and fly in seemingly random directions to achieve its target waypoint.,Satellite signals are lost causing the UAV to lose accurate localization and fly in seemingly random directions to achieve its target waypoint.
+UAV-1017,UAV localization fails during flight.,A UAV is not able to accurately determine its GPS location
+UAV-1016,Handover fails between two UI controllers creating loss of control,Handover fails between two UI controllers creating loss of control
+UAV-1015,Handover fails from Dronology to handheld GCS resulting in loss of control,Handover fails from Dronology to handheld GCS resulting in loss of control
+UAV-1014,Handover between controllers fails,Handover between controllers fails
+UAV-1013,Motor fails during UAV flight,Motor fails during flight.
+UAV-1012,Physical component fails during flight causing UAV to crash,Physical component fails during flight causing UAV to crash
+UAV-1009,Midair collision during flight execution,Midair collision during flight execution
+UAV-1008,UAVs collide with each other during landing,UAVs collide with each other during landing
+UAV-1007,UAV flies into a fixed stationary object such as a building or tree,UAV flies into a fixed stationary object such as a building or tree
+UAV-1006,UAV receives a goto directive that causes it to fly into terrain,UAV receives a waypoint command that causes it to fly into terrain
+UAV-1005,"UAV collides with a flying animal (e.g., a goose)","UAV collides with a flying animal (e.g., a goose)"
+UAV-1003,UAV collides with stationary obstacle,UAV collides with stationary obstacle
+UAV-1002,UAV Collides with an obstacle,UAV Collides with an obstacle
+UAV-999,UAV receives waypoint commands but does not obey them,UAV receives waypoint commands but does not obey them
+UAV-998,UAV flies out of control causing an accident,UAV flies out of control causing an accident.
+UAV-948,UAV specifications are unknown or invalid causing incorrect algorithmic computations,"UAV specs are incorrect, and as a result, algorithms that depend on knowledge of accurate UAV characteristics and properties compute incorrect commands."
+UAV-947,Battery fails during flight,Battery fails during flight
+UAV-945,Area mapping provides insufficient coverage during search and rescue ,Area mapping is used to support aerial search and rescue.  Insufficient coverage can impact the feasibility of a successful search and rescue.
+UAV-931,Human operators are not prepared to takeover control and cause the UAV to crash,The RPIC fails to gain control of UAV when control is ceded by Dronology to the hand-held GCS.
+UAV-930,UAV collides with another UAV when Dronology issues RTL commands to multiple UAVs.,When Dronology issues a  RTL command to multiple UAVs their flight paths could overlap causing a potential midair collision.
+UAV-911,UAV is given an incorrect target location outside planned flying area,"The UAV receives a command, or series of commands, that sends it outside its planned area.  An example, would be if a flight route is issued for one area when the UAV is actually launched in a completely different geographical area. "
+UAV-906,UAV is no longer controllable from Dronology due to communication loss.,Commands sent to the UAV from the GCS are not received
+UAV-905,UAV does not respond to GCS commands,UAV does not respond to GCS commands
+UAV-895,Dronology system fails to operate safely,Dronology system fails to operate safely
+UAV-861,Collision occurs between UAVs at takeoff,"UAVs are placed at random positions prior to takeoff, and may collide when flying to the first waypoint of their assigned routes"
+UAV-860,Two or more UAVs collide in midair,A UAV collides with another UAV during flight
